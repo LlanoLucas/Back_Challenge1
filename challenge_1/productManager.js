@@ -32,7 +32,7 @@ class ProductManager {
       thumbnail,
       code,
       stock,
-      id: this.generateId(),
+      id: this.generateId(), // o id: this.products.length + 1
     });
   }
 
